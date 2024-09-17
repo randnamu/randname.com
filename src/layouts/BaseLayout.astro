@@ -1,0 +1,19 @@
+---
+import BaseHead from '@components/BaseHead.astro'
+import Header from '@components/Header.astro'
+import type { MetaInfo } from '@types'
+
+type Props = MetaInfo
+
+const { ...meta } = Astro.props
+---
+
+<html lang="en">
+        <head>
+            <BaseHead {...meta} />
+        </head>
+        <body>
+                <Header />
+                <slot />
+        </body>
+</html>
