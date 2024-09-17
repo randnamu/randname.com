@@ -9,11 +9,11 @@ const { ...meta } = Astro.props
 ---
 
 <html lang="en">
-        <head>
-            <BaseHead {...meta} />
-        </head>
-        <body>
-                <Header />
-                <slot />
-        </body>
+    <head>
+        <BaseHead {...meta} />
+    </head>
+    <body class="bg-base color-base">
+        <Header />
+        <slot />
+    </body>
 </html>
