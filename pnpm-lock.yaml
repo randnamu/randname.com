@@ -27,6 +27,9 @@ importers:
       '@biomejs/biome':
         specifier: 1.9.1
         version: 1.9.1
+      '@iconify-json/line-md':
+        specifier: ^1.2.1
+        version: 1.2.1
       '@unocss/reset':
         specifier: ^0.62.4
         version: 0.62.4
@@ -559,6 +562,9 @@ packages:
 
   '@expressive-code/plugin-text-markers@0.36.1':
     resolution: {integrity: sha512-CNxkTuXmQtRWMQZcRRsLEfZIYStMdRMPzbisNU2a/RTgovqDsOQiyh1abnewxz0y7VuXW330D+etcEHjFWXU/A==}
+
+  '@iconify-json/line-md@1.2.1':
+    resolution: {integrity: sha512-XMga2q5PiQ2LrU7K06hfqSYOA+7UFhRwhl52xvPCPAiLmtdfWBeX38nA46mcaLj7sdNo+DK+BJy9iTrzQ0ewNw==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -3030,6 +3036,10 @@ snapshots:
   '@expressive-code/plugin-text-markers@0.36.1':
     dependencies:
       '@expressive-code/core': 0.36.1
+
+  '@iconify-json/line-md@1.2.1':
+    dependencies:
+      '@iconify/types': 2.0.0
 
   '@iconify/types@2.0.0': {}
 

@@ -1,4 +1,4 @@
-import type { Site } from '@types'
+import type { Site, Link } from '@types'
 
 const SITE: Site = {
   title: 'RandName',
@@ -8,4 +8,10 @@ const SITE: Site = {
   favicon: '/favicon.svg',
 }
 
-export { SITE }
+const MENU: Link[] = [
+  { name: 'Posts', url: '/posts' },
+  { name: 'Series', url: '/series' },
+  { name: 'Friends', url: '/friends' },
+]
+
+export { SITE, MENU }

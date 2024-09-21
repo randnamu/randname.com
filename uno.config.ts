@@ -18,7 +18,7 @@ export default defineConfig({
       'color-accent': 'text-[#121723] dark:text-[#f8f9fa] switch-animation',
       'bg-destructive': 'bg-[#ed3c3c] dark:bg-[#741b1b] switch-animation',
       'color-destructive': 'text-[#ebebeb] dark:text-[#f8f9fa] switch-animation',
-      'border-base': 'border-[#e1e3e8] dark:border-[#1d2530] switch-animation',
+      'border-base': 'border-[#e1e3e8] dark:border-[#1d2530] transition-border duration-300',
       'bg-input': 'bg-[#e1e3e8] dark:bg-[#1d2530] switch-animation',
     },
   ],

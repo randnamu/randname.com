@@ -2,6 +2,7 @@
 import BaseHead from '@components/BaseHead.astro'
 import Header from '@components/Header.astro'
 import type { MetaInfo } from '@types'
+import { ViewTransitions } from 'astro:transitions'
 
 type Props = MetaInfo
 
@@ -11,6 +12,7 @@ const { ...meta } = Astro.props
 <html lang="en">
     <head>
         <BaseHead {...meta} />
+        <ViewTransitions />
     </head>
     <body class="bg-base color-base">
         <Header />
